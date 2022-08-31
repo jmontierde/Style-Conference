@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html {
+      box-sizing: border-box;
+      height: 100%;
+   
+}
+
+body{
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+
+}
+
+#heading-style {
+      background-color: #012a4a;
+}
+
+nav {
+      display: flex;
+      justify-content: space-around;
+      color: #fff;
+      padding: 0 70px 0 70px;
+
+  
+}
+
+
+.tittle {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+   
+}
+.tittle a {
+      text-decoration: none;
+      color: rgb(192, 189, 189) ;
+      font-weight:100;
+      
+}
+
+.menu-items{
+  
+      color:#1d649b;
+      padding-top: 2rem;
+      
+}
+.date{
+      font-size: 1.5rem;
+      padding-left: 6.2rem;
+      
+}
+.items  {
+      list-style: none;
+   
+      display: inline-block;
+      justify-content: space-between;
+      text-align: center;
+      font-size: .8rem;
+      padding-right: 1.5rem;
+      text-transform: uppercase;
+      font-weight: bolder;
+
+}
+
+.items a{
+      text-decoration: none;
+      color: #fff;
+    
+}
+a:hover{
+     color:#1d649b;
+}
+
+
+/* Dedicated */
+.dedicated-website{
+     text-align: center;
+     padding-bottom: 4rem;
+  
+}
+.dedicated-website h1{
+      color:#328ace;
+      font-size: 2rem;
+}
+.dedicated-website h3{
+      color:#b3deff;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      font-weight: 100;
+ 
+}
+
+.btn {
+      background-color: #012a4a;
+      border: 1px #fff solid;
+      padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+      font-size: 1rem;
+      color: #fff;
+      border-radius: 5px;
+}
+.btn:hover{
+      background-color: #fff;
+      color: #012a4a;
+} 
+
+/* Cards */
+
+#inspiration{
+      padding: 3rem 10rem 3rem 10rem;
+      display: grid;
+      grid-gap: 1.5rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+}
+
+.cards{
+      height: 30vh;
+      width: 100%;
+      object-fit: cover;
+}
+
+.inspiration, h4, h3 {
+      color: #84b3d8;
+}
+.inspiration, p{
+      font-size: 1rem;
+      font-weight: 500;
+   
+}
+
+footer{
+      background-color: #012a4a;
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem;
+}
+
+footer ul{
+      list-style: none;
+      display: flex;    
+}
+
+footer h5{
+      color:#56adf0;
+      align-self: center;
+}
+footer li{
+      color: #fff;
+      padding: 1rem;
+      font-size: .9rem;
+      
+}
